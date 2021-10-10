@@ -1,0 +1,38 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 500px;
+  /* border: 2px solid green;
+  background-color: rgb(169, 182, 169);
+  border-radius: 10px; */
+  padding: 20px;
+}
+.item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+.name {
+  font-size: 20px;
+  margin-right: 20px;
+}
+.tell {
+  font-size: 20px;
+  margin-right: 50px;
+}
+
+.button {
+  background-color: red;
+  cursor: pointer;
+  color: #fff;
+  font-size: 17px;
+  border-style: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 3px;
+}

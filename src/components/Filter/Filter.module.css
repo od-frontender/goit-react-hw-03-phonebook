@@ -1,0 +1,15 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  color: green;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.input {
+  margin-top: 20px;
+  outline: green;
+  width: 300px;
+  font-size: 20px;
+}
